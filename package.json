@@ -28,6 +28,8 @@
     ]
   },
   "dependencies": {
+    "@antv/x6": "^1.12.1",
+    "antd": "^4.10.2",
     "react": "^16.12.0"
   },
   "devDependencies": {
