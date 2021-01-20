@@ -1,6 +1,6 @@
 import React from 'react';
 import { Graph } from '@antv/x6';
-import { NodeType } from './ItemPanel';
+import { NodeType } from '../common/constants';
 
 const data = {
   // 节点
