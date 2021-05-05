@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'antd';
+import { Row, Col, Card } from 'antd';
 import 'antd/dist/antd.css';
 
 import ItemPanel from './components/ItemPanel';
@@ -12,14 +12,20 @@ export default class SwimlaneFlowchart extends React.Component {
   render() {
     return (
       <>
-        <Row>
-          {/* 元素面板 */}
-          <Col flex="200px">
-            <ItemPanel />
+        <Row gutter={16}>
+          <Col
+            flex="200px"
+            style={{ display: 'flex', flexDirection: 'column' }}
+          >
+            <Card title="元素面板" size="small" style={{ flexGrow: 1 }}>
+              <ItemPanel />
+            </Card>
           </Col>
           {/* 画布 */}
           <Col flex="auto">
-            <Canvas />
+            <Card>
+              <Canvas />
+            </Card>
           </Col>
         </Row>
       </>
