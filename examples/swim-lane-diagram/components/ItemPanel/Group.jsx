@@ -1,5 +1,5 @@
 import React from 'react';
-import { NodeType } from '../../../constants';
+import { NodeType } from '../../constants';
 
 export default () => {
   return (
@@ -14,8 +14,8 @@ export default () => {
         e.dataTransfer.setData(
           'model',
           JSON.stringify({
-            nodeType: NodeType.Regular,
-            label: '开始',
+            nodeType: NodeType.Group,
+            label: '泳道',
             width: 60,
             height: 60,
           }),
@@ -34,7 +34,7 @@ export default () => {
           borderRadius: '4px',
         }}
       >
-        常规节点
+        泳道
       </div>
     </div>
   );

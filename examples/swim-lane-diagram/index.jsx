@@ -14,7 +14,7 @@ export default class SwimlaneFlowchart extends React.Component {
       <>
         <Row gutter={16}>
           <Col
-            flex="200px"
+            flex="120px"
             style={{ display: 'flex', flexDirection: 'column' }}
           >
             <Card title="元素面板" size="small" style={{ flexGrow: 1 }}>

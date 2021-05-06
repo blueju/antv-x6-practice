@@ -9,6 +9,9 @@ const data = {
   edges: [],
 };
 
+/**
+ * 画布
+ */
 export default class Canvas extends React.Component {
   state = {
     graph: null,
