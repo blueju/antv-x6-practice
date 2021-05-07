@@ -20,5 +20,6 @@
 .umi-test
 .env.local
 
-# custom
+# blueju custom
 .idea
+.vscode

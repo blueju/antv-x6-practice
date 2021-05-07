@@ -28,16 +28,16 @@
     ]
   },
   "dependencies": {
-    "@ant-design/icons": "^4.3.0",
-    "@antv/x6": "^1.12.1",
-    "@antv/x6-react-components": "^1.1.0",
-    "antd": "^4.10.2",
+    "@ant-design/icons": "^4.6.2",
+    "@antv/x6": "^1.20.0",
+    "@antv/x6-react-components": "^1.1.7",
+    "antd": "^4.15.4",
     "react": "^16.12.0"
   },
   "devDependencies": {
     "@umijs/test": "^3.0.5",
-    "dumi": "^1.0.10",
-    "father-build": "^1.17.2",
+    "dumi": "^1.1.16",
+    "father-build": "^1.19.4",
     "gh-pages": "^3.0.0",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
