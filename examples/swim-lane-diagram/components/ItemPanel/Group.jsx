@@ -15,9 +15,9 @@ export default () => {
           'model',
           JSON.stringify({
             nodeType: NodeType.Group,
-            label: '泳道',
-            width: 60,
-            height: 60,
+            label: '业务域',
+            width: 100,
+            height: 200,
           }),
         );
       }}

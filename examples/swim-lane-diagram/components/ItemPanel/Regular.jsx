@@ -18,7 +18,7 @@ export default () => {
           'model',
           JSON.stringify({
             nodeType: NodeType.Regular,
-            label: '开始',
+            label: '服务',
             width: 60,
             height: 60,
           }),
