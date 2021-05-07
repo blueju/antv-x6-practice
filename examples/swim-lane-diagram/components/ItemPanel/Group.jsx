@@ -1,7 +1,12 @@
 import React from 'react';
 import { NodeType } from '../../constants';
 
-export default () => {
+/**
+ * 业务域，
+ * 表现形式是：泳道，
+ * 代码本质是：群组。
+ */
+export default function BusinessDomain() {
   return (
     <div
       style={{
@@ -34,8 +39,8 @@ export default () => {
           borderRadius: '4px',
         }}
       >
-        泳道
+        业务域
       </div>
     </div>
   );
-};
+}
