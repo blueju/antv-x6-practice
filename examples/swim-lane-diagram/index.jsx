@@ -23,7 +23,7 @@ export default class SwimlaneFlowchart extends React.Component {
           </Col>
           {/* 画布 */}
           <Col flex="auto">
-            <Card>
+            <Card title="画布" size="small">
               <Canvas />
             </Card>
           </Col>

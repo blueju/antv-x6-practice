@@ -2,11 +2,9 @@ import React from 'react';
 import { NodeType } from '../../constants';
 
 /**
- * 服务节点，
- * 表现形式是：节点，
- * 代码本质是：节点。
+ * 规则节点
  */
-export default function ServiceNode() {
+export default function Rule() {
   return (
     <div
       style={{
@@ -20,7 +18,7 @@ export default function ServiceNode() {
           'model',
           JSON.stringify({
             nodeType: NodeType.Regular,
-            label: '服务节点',
+            label: '规则',
             width: 60,
             height: 60,
           }),
@@ -39,7 +37,7 @@ export default function ServiceNode() {
           borderRadius: '4px',
         }}
       >
-        服务节点
+        规则
       </div>
     </div>
   );

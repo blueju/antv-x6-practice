@@ -1,7 +1,11 @@
 import { Shape } from '@antv/x6';
 
-const service = Shape.Rect.define({
-  shape: 'service',
+/**
+ * 自定义规则节点
+ */
+export const rule = {
+  /** 继承自 Rect 节点 */
+  inherit: Shape.Rect,
   width: 60,
   height: 60,
   attrs: {
@@ -15,7 +19,7 @@ const service = Shape.Rect.define({
       ry: 10,
     },
   },
-  // 链接桩/锚点
+  /** 链接桩 */
   ports: {
     groups: {
       in: {
@@ -26,7 +30,7 @@ const service = Shape.Rect.define({
             magnet: true,
             stroke: '#31d0c6',
             strokeWidth: 2,
-            fill: '#31d0c6',
+            fill: '#fff',
           },
         },
       },
@@ -69,4 +73,4 @@ const service = Shape.Rect.define({
       },
     },
   },
-});
+};
